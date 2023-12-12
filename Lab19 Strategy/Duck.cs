@@ -2,9 +2,9 @@
 {
     public abstract class Duck
     {
-        private IFly _fly { get; set; }
-        private IQuack _quack { get; set; }
-        private ISwim _swim { get; set; }
+        private IFly _fly;
+        private IQuack _quack;
+        private ISwim _swim;
 
         protected Duck(IFly fly, IQuack quack, ISwim swim)
         {
